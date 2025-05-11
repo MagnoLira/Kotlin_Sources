@@ -1,6 +1,6 @@
-# Java Projects
+# Kotlin Sources
 
-A repository containing Java and Kotlin projects, study materials, and experiments. This space includes applications and reference resources focused on backend development and integration with frameworks like Spring.
+A repository containing Kotlin study materials, and experiments. This space includes applications and reference resources focused on backend development and integration with frameworks like Spring.
 
 ---
 
