@@ -30,3 +30,40 @@ A repository containing Kotlin study materials, and experiments. This space incl
 ## Work in Progress
 
 This repository is under active development. New projects and materials will be added as learning progresses.
+
+
+
+
+
+
+
+
+
+
+
+
+# backend
+
+Here it is structure suggestions:
+        backend/
+        ├── manage.py                    # Script para comandos do Django
+        ├── backend/                     # Configurações principais do projeto
+        │   ├── __init__.py
+        │   ├── settings.py              # Configurações do projeto (usando .env)
+        │   ├── urls.py                  # Rotas principais do projeto
+        │   ├── asgi.py                  # Entrada para servidores ASGI (async)
+        │   └── wsgi.py                  # Entrada para servidores WSGI (sync)
+        ├── core/                        # App principal da aplicação
+        │   ├── __init__.py
+        │   ├── admin.py                 # Registro de modelos no Django Admin
+        │   ├── apps.py                  # Configurações do app
+        │   ├── models.py                # Modelos de dados
+        │   ├── views.py                 # Views (lógicas de requisição)
+        │   ├── urls.py                  # Rotas específicas do app
+        │   └── migrations/              # Controle de migrações do banco de dados
+        ├── requirements.txt             # Lista de dependências do projeto
+        ├── .env                         # Variáveis de ambiente (não versionado)
+        ├── Dockerfile                   # Imagem Docker do backend
+        └── docker-compose.yml           # Orquestração com PostgreSQL e Django
+
+
